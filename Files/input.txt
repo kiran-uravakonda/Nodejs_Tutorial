@@ -1,0 +1,1 @@
+Mongoose maintains a separate object for internal options because Mongoose sends Query.prototype.options to the MongoDB server, and the above options are not relevant for the MongoDB server.

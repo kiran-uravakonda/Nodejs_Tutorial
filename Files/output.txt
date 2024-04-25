@@ -1,0 +1,5 @@
+welcome to Mongoose
+
+ Mongoose maintains a separate object for internal options because Mongoose sends Query.prototype.options to the MongoDB server, and the above options are not relevant for the MongoDB server.
+ 
+ Thu Mar 21 2024 23:33:42 GMT+0530 (India Standard Time)
